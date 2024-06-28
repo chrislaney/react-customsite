@@ -35,6 +35,7 @@
     display: flex;
     color: var(--color-text);
     font: var(--font-worksans);
+    font-weight: 700;
 }
 
 .topBarAbout{
@@ -48,6 +49,7 @@
     display: flex;
     color: var(--color-text);
     font: var(--font-worksans);
+    font-weight: 700;
 }
 
 
@@ -62,6 +64,7 @@
     display: flex;
     color: var(--color-text);
     font: var(--font-worksans);
+    font-weight: 700;
 }
 
 .contentTextBox{
@@ -92,14 +95,86 @@
     justify-content: space-between;
 }
 
-.profileSide{
+.profilePic{
     width: 200px;
     height: 200px;
-    background-color: grey;
+    background-color: var(--color-bordergrey);
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid var(--color-bordergrey);
+    box-shadow: -3px 3px 0px 0px var(--color-bordergrey);
+    justify-content: center;
+    content: fill;
+}
+
+.profilePic img {
+    border-radius: 0 0 10px 10px;
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
 .square{
     width: 100px;
     height:100px;
     background-color: grey;
+}
+
+.nameButtonContainer{
+    display: flex;
+    padding: 3px;
+    height: 20%;
+    width: 100%;
+}
+
+.nameCol{
+    flex:1;
+    justify-content: flex-start;
+    display: flex;
+    color: var(--color-bordergrey);
+    font-size: 20pt;
+    font-weight: 600;
+    
+}
+
+.buttonCol{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+.friendbuttonRow{
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-friendbutton);
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid var(--color-bordergrey);
+    color: var(--color-bordergrey);
+    box-shadow: -1px 3px 0px 0px var(--color-bordergrey);
+    font-weight: 600;
+    
+}
+
+.messagebuttonRow{
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-messagebutton);
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid var(--color-bordergrey);
+    color: var(--color-bordergrey);
+    box-shadow: -1px 3px 0px 0px var(--color-bordergrey);
+    font-weight: 600;
 }

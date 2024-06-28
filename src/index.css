@@ -1,3 +1,10 @@
+/* @font-face {
+  font-family: 'worksans';
+  src: url('src\fonts\work-sans\WorkSans-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}; */
+
 *{
   box-sizing: border-box;
   margin: 0px;

@@ -9,7 +9,23 @@ export const ProfileContent = () => {
         <div className={styles.gridRows}>
             <div className={styles.topBarContainer}>
                 <div className={styles.profileSide}>
-                    Profile Pic
+                    <div className={styles.profilePic}>
+                        <img src="src\assets\buttons\chrisHero.JPEG"></img>
+                    </div>
+                    <div className={styles.nameButtonContainer}>
+                        <div className={styles.nameCol}>
+                            Chris
+                        </div>
+                        <div className={styles.buttonCol}>
+                            <div className={styles.friendbuttonRow}>
+                                + Friend
+                            </div>
+                            <div className={styles.messagebuttonRow}>
+                                Message
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.aboutTextBox}>
                     <div className={styles.topBarAbout}>
@@ -32,7 +48,7 @@ export const ProfileContent = () => {
 
                     {/* This is where music playlists from spotify api will go */}
                     <div className={styles.square}></div>
-                    
+
                 </div>
             </div>
         </div>

@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container{
+    height: fit-content;
+    width: fit-content;
+    max-width: 400px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navOptionsContainer{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.navOptionItem{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    position: relative;
+}
+
+.navOptionItem:hover{
+    transform: scale(1.0); 
+    background-color: #7ad7ffa3 ;
+    border-radius: 3px;
+    box-shadow: 0 0 0 10px#7ad7ffa3;
+    z-index: 1; 
+    transition: 0.4s;
+}
+.navImageContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    height: 5rem;
+    padding: 1rem;
+}
+.navImageContainer img{
+    width: 5rem;
+    height: fit-content;
+
+}
+.navOptionItem p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:var(--color-bordergrey);
+    margin-top: 0.5rem;
+}

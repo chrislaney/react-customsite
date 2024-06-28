@@ -1,3 +1,12 @@
+/* @font-face {
+    font-family: 'worksans';
+    src: url('src\fonts\work-sans\WorkSans-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+};
+
+font-family: 'worksans', sans-serif; */
+
 :root {
     /*Colors*/
     --color-text: #585757;
@@ -21,9 +30,11 @@
     --color-textbox: #FFFFFF;
     --color-abouttopbar: #A9CBFF;
 
+    --color-friendbutton: #A9CBFF;
+    --color-messagebutton: #FFC194;
 
     /*Fonts*/
-    --font-worksans: "WorkSans-Medium";
+    --font-worksans: "worksans";
 
     /*"C:\Users\clane\Downloads\work-sans\WorkSans-Medium.otf"*/
 

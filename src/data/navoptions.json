@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Projects",
+      "imageSrc": "fileicons/foldericon.png"
+    },
+    {
+        "title": "Photos",
+        "imageSrc": "fileicons/foldericon.png"
+      },
+      {
+        "title": "Writings",
+        "imageSrc": "fileicons/foldericon.png"
+      },
+      {
+        "title": "Resume",
+        "imageSrc": "fileicons/texticon.png"
+      },
+      {
+        "title": "Interests",
+        "imageSrc": "fileicons/texticon.png"
+      },
+      {
+        "title": "Music",
+        "imageSrc": "fileicons/foldericon.png"
+      }
+  ]

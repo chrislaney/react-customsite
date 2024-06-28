@@ -1,0 +1,44 @@
+@import "../../vars.css";
+
+.container{
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: -7px 7px 0px 0px var(--color-bordergrey);
+    outline: 4px solid var(--color-bordergrey);
+
+    /*Structural elements*/
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    margin-bottom: 30px;
+}
+
+.topBar{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-musiccardtopbar);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.button{
+    background-color: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.button:last-child {
+    margin-right: 10px; /* Adds space to the right of the last button */
+}
+.buttonImage{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    border-top: 4px solid var(--color-bordergrey);
+    background-color: var(--color-musiccontent);
+}
+

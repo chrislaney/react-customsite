@@ -1,0 +1,124 @@
+.container{
+    /*invisible container*/
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.parentFrame{
+
+    border-radius: 5px;
+    box-shadow: -7px 7px 0px 0px var(--color-bordergrey);
+    outline: 4px solid var(--color-bordergrey);
+    margin-top: 30px;
+
+
+    /*structural elements*/
+    display: grid;
+    grid-template-rows: 40px 50px 1fr 20px;
+    margin-bottom: 30px;
+    
+
+}
+
+.topBar{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-profiletopbar);
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.backButtons{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button{
+    background-color: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.button:last-child {
+    margin-right: 10px; /* Adds space to the right of the last button */
+}
+.button:first-child{
+    margin-left: 10px;
+}
+
+.buttonImage{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.searchBar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-searchbarorange);
+    border-top: 4px solid var(--color-bordergrey);
+    border-bottom: 4px solid var(--color-bordergrey);
+}
+
+.searchField{
+    background-color: var(--color-searchfield);
+    width: 80%;
+    height: 60%;
+    border-radius: 45px;
+    outline: 3px solid var(--color-bordergrey);
+
+    box-shadow: inset 3px 5px 0px rgba(0, 0, 0, 0.162);
+}
+
+.bottomBar{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-profiletopbar);
+    border-top: 4px solid var(--color-bordergrey);
+    
+}
+
+.childFrame{
+    background-color: var(--color-childframebg);
+
+
+    /*structure for faux scroll*/
+    display:grid;
+    grid-template-columns: 1fr 20px;
+    /* grid-gap: 10px; */
+}
+
+.scrollSection{
+    background-color: none;
+    border-left: 4px solid var(--color-bordergrey);
+}
+
+.scrollBar{
+    background-color: var(--color-profiletopbar);
+    margin-top: 30px;
+    width: 100%;
+    height: 70%;
+    border-radius: 45px;
+    outline: 4px solid var(--color-bordergrey);
+    
+}
+
+.contentSection{
+    background-color: none;
+
+    /*place holders to create space, should probably be fit-content*/
+    height: 600px;
+    width: 600px;
+    
+}
+

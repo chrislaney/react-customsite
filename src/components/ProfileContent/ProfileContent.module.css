@@ -1,0 +1,105 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    height:100%;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.gridRows{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.textBox{
+    height: 100%;
+    width: 100%;
+    box-shadow: -5px 5px 0px 0px var(--color-bordergrey);
+    /*Structural elements*/
+    display: grid;
+    grid-template-rows: 24px 1fr;
+}
+
+.topBarTextBox{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-musictopbar);
+    
+    padding-left: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    color: var(--color-text);
+    font: var(--font-worksans);
+}
+
+.topBarAbout{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-abouttopbar);
+    
+    padding-left: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    color: var(--color-text);
+    font: var(--font-worksans);
+}
+
+
+.topBarPhotoTextBox{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-phototopbar);
+    
+    padding-left: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    color: var(--color-text);
+    font: var(--font-worksans);
+}
+
+.contentTextBox{
+    background-color: white;
+
+    /* Need to add text styling in */
+}
+
+.contentAbout{
+    background-color: white;
+    /* Need to add text styling in */
+}
+
+.aboutTextBox{
+    height: 100%;
+    width: 60%;
+    box-shadow: -5px 5px 0px 0px var(--color-bordergrey);
+    /*Structural elements*/
+    display: grid;
+    grid-template-rows: 24px 1fr;
+}
+
+.topBarContainer{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.profileSide{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.square{
+    width: 100px;
+    height:100px;
+    background-color: grey;
+}

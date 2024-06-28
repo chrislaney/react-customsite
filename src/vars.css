@@ -1,0 +1,30 @@
+:root {
+    /*Colors*/
+    --color-text: #585757;
+    --color-bg: #FFF9EB;
+    --color-lime: #91FF96;
+    --color-purple: #FC7DFD;
+    --color-bordergrey: #585757;
+    /*music card*/
+    --color-musiccardtopbar: #81b3ff;
+    --color-musiccontent:  #FFF2C5; 
+
+    /*profilecard div*/
+    --color-profiletopbar: #C5C7FF;
+    --color-searchbarorange: #FFC194;
+    --color-childframebg: #ECFAFF;
+    --color-searchfield: #FFEF9D;
+
+    /*profile content div*/
+    --color-musictopbar: #FFC194;
+    --color-phototopbar: #91FF96;
+    --color-textbox: #FFFFFF;
+    --color-abouttopbar: #A9CBFF;
+
+
+    /*Fonts*/
+    --font-worksans: "WorkSans-Medium";
+
+    /*"C:\Users\clane\Downloads\work-sans\WorkSans-Medium.otf"*/
+
+}

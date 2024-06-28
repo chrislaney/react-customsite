@@ -1,0 +1,25 @@
+.container{
+    display:flex;
+    height: 100vh;
+}
+
+.leftCol{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightCol{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.columnElement{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}

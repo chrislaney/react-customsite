@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from "./ProfileContent.module.css";
+import { useState } from 'react';
 
+import { FriendButton } from "../FriendButton/FriendButton";
+
+// https://www.youtube.com/watch?v=2wKS55_rkqI
 
 export const ProfileContent = () => {
   return (
@@ -8,7 +12,7 @@ export const ProfileContent = () => {
         {/* ABOUT AND PROFILE PIC SECTION */}
         <div className={styles.gridRows}>
             <div className={styles.topBarContainer}>
-                <div className={styles.profileSide}>
+                <div>
                     <div className={styles.profilePic}>
                         <img src="src\assets\buttons\chrisHero.JPEG"></img>
                     </div>
@@ -17,13 +21,8 @@ export const ProfileContent = () => {
                             Chris
                         </div>
                         <div className={styles.buttonCol}>
-                            <div className={styles.friendbuttonRow}>
-                                + Friend
-                            </div>
-                            <div className={styles.messagebuttonRow}>
-                                Message
-                            </div>
-
+                            <FriendButton></FriendButton>
+                            <a href="mailto:Laneyct@mail.uc.edu" className={styles.messagebuttonRow}>Message</a>
                         </div>
                     </div>
                 </div>
@@ -33,6 +32,7 @@ export const ProfileContent = () => {
                     </div>
                     <div className={styles.contentAbout}>
                             {/* This will be about text - you need to style the next */}
+                            Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. 
                     </div>
                 </div>
             </div>
@@ -48,6 +48,9 @@ export const ProfileContent = () => {
 
                     {/* This is where music playlists from spotify api will go */}
                     <div className={styles.square}></div>
+                    <div className={styles.square}></div>
+                    <div className={styles.square}></div>
+                    <div className={styles.square}></div>
 
                 </div>
             </div>
@@ -62,6 +65,9 @@ export const ProfileContent = () => {
                 <div className={styles.contentTextBox}>
 
                     {/* This is where photo stuff will go */}
+                    <div className={styles.square}></div>
+                    <div className={styles.square}></div>
+                    <div className={styles.square}></div>
                     <div className={styles.square}></div>
 
                 </div>

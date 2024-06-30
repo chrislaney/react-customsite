@@ -1,3 +1,5 @@
+@import "../../vars.css";
+
 .container{
     display: grid;
     grid-template-columns: 1fr;
@@ -68,9 +70,14 @@
 }
 
 .contentTextBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: white;
+    padding: 10px;
 
     /* Need to add text styling in */
+
 }
 
 .contentAbout{
@@ -115,11 +122,6 @@
     object-fit: cover;
 }
 
-.square{
-    width: 100px;
-    height:100px;
-    background-color: grey;
-}
 
 .nameButtonContainer{
     display: flex;
@@ -163,6 +165,11 @@
     
 }
 
+.friendbuttonRow:hover{
+    transition: 0.1s;
+    background-color: #7fb1fd;
+}
+
 .messagebuttonRow{
     display: grid;
     grid-template-rows: auto auto;
@@ -177,4 +184,40 @@
     color: var(--color-bordergrey);
     box-shadow: -1px 3px 0px 0px var(--color-bordergrey);
     font-weight: 600;
+    text-decoration:none;
+}
+.messagebuttonRow:hover{
+    transition: 0.3s;
+    filter: brightness(90%);
+}
+
+.square{
+    width: 125px;
+    height:125px;
+    background-color: grey;
+    margin: 4px;
+    
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .content{
+        flex-direction: column;
+    }
+    .topBarContainer{
+        flex-direction: column;
+    }
+    .aboutTextBox{
+        width: 100%;
+    }
+    .profilePic{
+        align-items: center;
+        width: 100%;
+    }
+    .profilePic img{
+        width: 100%;
+    }
+    
 }

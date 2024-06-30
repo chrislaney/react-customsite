@@ -28,3 +28,18 @@
     padding:2rem;
     
 }
+
+@media screen and (max-width: 830px){
+    .container {
+        flex-direction: column; /* Stack items vertically */
+      }
+    
+      .rightCol {
+        order: -1; /* Move .rightCol above .leftCol in the stacking order */
+        width: fit-content;
+      }
+
+      .leftCol{
+        width: fit-content;
+      }
+}

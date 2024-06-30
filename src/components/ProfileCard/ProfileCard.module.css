@@ -1,3 +1,5 @@
+@import "../../vars.css";
+
 .container{
     /*invisible container*/
     width: fit-content;
@@ -117,8 +119,8 @@
     background-color: none;
 
     /*place holders to create space, should probably be fit-content*/
-    height: 600px;
-    width: 600px;
+    height: fit-content;
+    width: fit-content;
     
 }
 

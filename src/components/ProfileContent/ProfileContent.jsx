@@ -14,7 +14,7 @@ export const ProfileContent = () => {
             <div className={styles.topBarContainer}>
                 <div>
                     <div className={styles.profilePic}>
-                        <img src="src\assets\buttons\chrisHero.JPEG"></img>
+                        <img src="assets\buttons\chrisHero.JPEG"></img>
                     </div>
                     <div className={styles.nameButtonContainer}>
                         <div className={styles.nameCol}>
@@ -32,7 +32,7 @@ export const ProfileContent = () => {
                     </div>
                     <div className={styles.contentAbout}>
                             {/* This will be about text - you need to style the next */}
-                            Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
             </div>

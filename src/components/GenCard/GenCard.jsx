@@ -7,9 +7,9 @@ export const GenCard = () => {
     <div className={styles.container}>
         <div className={styles.parentFrame}>
             <div className={styles.topBar}>
-                <div className={styles.button}><img src="src\assets\buttons\expandButton.png" className={styles.buttonImage}/></div>
-                <div className={styles.button}><img src="src\assets\buttons\minimizeButton.png" className={styles.buttonImage}/></div>
-                <div className={styles.button}><img src="src\assets\buttons\xbutton.png" className={styles.buttonImage}/></div>
+                <div className={styles.button}><img src="assets\buttons\expandButton.png" className={styles.buttonImage}/></div>
+                <div className={styles.button}><img src="assets\buttons\minimizeButton.png" className={styles.buttonImage}/></div>
+                <div className={styles.button}><img src="assets\buttons\xbutton.png" className={styles.buttonImage}/></div>
             </div>
             <div className={styles.childFrame}>
                 <div className={styles.contentSection}>

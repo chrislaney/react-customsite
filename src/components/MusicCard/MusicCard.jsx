@@ -11,7 +11,7 @@ export const MusicCard = () => {
           <div className={styles.button}><img src={getImageUrl("buttons/xbutton.png")} className={styles.buttonImage}/></div>
         </div>
         <div className={styles.content}>
-        Hopefully will hook up to Spotify API eventually and display album cover and title of song
+        Hopefully will hook up to Spotify API eventually and display album cover and title of song - Test 2
         </div>
     </div>
   )

@@ -9,8 +9,9 @@
     flex: 1;
     display:flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 2rem;
+    justify-content: flex-end;
 
 }
 
@@ -25,12 +26,15 @@
     flex:1;
     display:flex;
     justify-content: center;
-    align-items: center;
-    padding:1rem;
-    
+    /* align-items: center; */
+    /* padding:1rem; */
+    margin-top: 2rem;
+}
+.columnElement:last-child{
+  margin-top: 2rem;
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 1000px){
     .container {
         flex-direction: column; /* Stack items vertically */
       }

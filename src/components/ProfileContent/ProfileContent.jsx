@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from "./ProfileContent.module.css";
-import { useState } from 'react';
-
 import { FriendButton } from "../FriendButton/FriendButton";
+import { getImageUrl } from '../../utils';
 
 // https://www.youtube.com/watch?v=2wKS55_rkqI
 
@@ -14,7 +13,7 @@ export const ProfileContent = () => {
             <div className={styles.topBarContainer}>
                 <div>
                     <div className={styles.profilePic}>
-                        <img src="assets\buttons\chrisHero.JPEG"></img>
+                        <img src={getImageUrl("photos/chrisHero.JPEG")}></img>
                     </div>
                     <div className={styles.nameButtonContainer}>
                         <div className={styles.nameCol}>
@@ -47,10 +46,10 @@ export const ProfileContent = () => {
                 <div className={styles.contentTextBox}>
 
                     {/* This is where music playlists from spotify api will go */}
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
+                    <div className={styles.square}>Album Cover Filler</div>
+                    <div className={styles.square}>Album Cover Filler</div>
+                    <div className={styles.square}>Album Cover Filler</div>
+                    <div className={styles.square}>Album Cover Filler</div>
 
                 </div>
             </div>
@@ -65,10 +64,10 @@ export const ProfileContent = () => {
                 <div className={styles.contentTextBox}>
 
                     {/* This is where photo stuff will go */}
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
-                    <div className={styles.square}></div>
+                    <div className={styles.square}>Photo Filler</div>
+                    <div className={styles.square}>Photo Filler</div>
+                    <div className={styles.square}>Photo Filler</div>
+                    <div className={styles.square}>Photo Filler</div>
 
                 </div>
             </div>

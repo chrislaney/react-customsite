@@ -34,6 +34,8 @@
     width: 20px;
     margin-left: 5px;
 }
+
+
 .button:last-child {
     margin-right: 10px; /* Adds space to the right of the last button */
 }

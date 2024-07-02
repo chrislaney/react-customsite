@@ -13,3 +13,7 @@
   font-family: Arial, Helvetica, sans-serif;
   /* background-color: var(--color-bg); */
 }
+
+.backgroundColor{
+  background-color: var(--color-bg);
+}

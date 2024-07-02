@@ -23,6 +23,7 @@
     align-items: center;
     gap: 0px;
     position: relative;
+    width: 5rem;
 }
 
 .navOptionItem:hover{
@@ -42,6 +43,7 @@
     height: 5rem;
     padding: 1rem;
 }
+
 .navImageContainer img{
     width: 5rem;
     height: 3.75rem;

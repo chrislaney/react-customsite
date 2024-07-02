@@ -1,8 +1,23 @@
+@import "../../vars.css";
+
+.parentContainer{
+  /* background-color: var(--color-bg);
+  height: 100%;
+  width: 100%; */
+}
+
 .container{
     display:flex;
-    height: 100vh;
-    width: 100vw;
-    /* margin-top: 50px; */
+    height: 98vh;
+    width: 100%;
+}
+
+.nameBar{
+  color: #ffe3a2;
+  align-items: center;
+  margin: 2rem 0rem 0rem 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 525;
 }
 
 .leftCol{
@@ -10,7 +25,7 @@
     display:flex;
     justify-content: center;
     /* align-items: center; */
-    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
     justify-content: flex-end;
 
 }
@@ -19,7 +34,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 .columnElement{

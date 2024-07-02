@@ -1,19 +1,20 @@
 @import "../../vars.css";
 
 .parentContainer{
-  /* background-color: var(--color-bg);
   height: 100%;
-  width: 100%; */
+  width: fit-content;
+  box-sizing: border-box;
 }
 
 .container{
     display:flex;
-    height: 98vh;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .nameBar{
-  color: #ffe3a2;
+  color: #ffebbd;
   align-items: center;
   margin: 2rem 0rem 0rem 2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,8 +26,9 @@
     display:flex;
     justify-content: center;
     /* align-items: center; */
-    margin: 0 2rem 2rem 2rem;
+    /* margin: 0 2rem 2rem 2rem; */
     justify-content: flex-end;
+    padding: 20px;
 
 }
 
@@ -34,7 +36,8 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 0 2rem 2rem 2rem;
+    /* margin: 0 2rem 2rem 2rem; */
+    padding: 20px;
 }
 
 .columnElement{

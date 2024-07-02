@@ -2,8 +2,9 @@
 
 .parentContainer{
   height: 100%;
-  width: fit-content;
+  /* width: fit-content; */
   box-sizing: border-box;
+  
 }
 
 .container{
@@ -25,10 +26,9 @@
     flex: 1;
     display:flex;
     justify-content: center;
-    /* align-items: center; */
-    /* margin: 0 2rem 2rem 2rem; */
-    justify-content: flex-end;
     padding: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -38,6 +38,9 @@
     flex-direction: column;
     /* margin: 0 2rem 2rem 2rem; */
     padding: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
 }
 
 .columnElement{
@@ -53,6 +56,7 @@
 }
 
 @media screen and (max-width: 1000px){
+
     .container {
         flex-direction: column; /* Stack items vertically */
       }

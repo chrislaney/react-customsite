@@ -33,9 +33,9 @@
     box-shadow: 0 0 0 10px#7ad7ffa3;
     z-index: 1; 
     transition: 0.4s;
+    cursor: pointer;
 }
 .navImageContainer{
-    
     display: flex;
     align-items: center;
     justify-content: center;

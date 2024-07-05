@@ -22,10 +22,34 @@
     width: 100%;
     height: 100%;
     background-color: var(--color-purple);
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+}
+
+
+.topBarTitle{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--color-bordergrey);
+    font-size: 10pt;
+    font-weight: 650;
+}
+
+.topBarTitle p{
+    margin-top: 7px;
+}
+
+.topBarTitle img{
+    height: 20px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+
 }
 
 .button{
@@ -33,6 +57,7 @@
     height: 20px;
     width: 20px;
     margin-left: 5px;
+    z-index: 1;
 }
 
 
@@ -42,6 +67,11 @@
 .buttonImage{
     height: 100%;
     width: 100%;
+}
+
+.buttonImage:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
 }
 
 .childFrame{
@@ -89,4 +119,6 @@
     background-color: grey;
     padding: 1rem;
 }
+
+
 

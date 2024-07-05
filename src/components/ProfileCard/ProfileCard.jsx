@@ -11,6 +11,19 @@ export const ProfileCard = () => {
           <div className={styles.backButtons}>
             <div className={styles.button}><img src={getImageUrl("buttons/backarrow.png")} className={styles.buttonImage}/></div>
             <div className={styles.button}><img src={getImageUrl("buttons/forwardarrow.png")} className={styles.buttonImage}/></div>
+            
+            {/* tabs */}
+            <div className={styles.currTab}>
+              Chris' Portfolio
+            </div>
+            <div className={styles.extTab}>
+              Linkedin Tab
+            </div>
+            <div className={styles.extTab}>
+              Github Tab
+            </div>
+
+            
           </div>
             <div className={styles.button}><img src={getImageUrl("buttons/expandButton.png")} className={styles.buttonImage}/></div>
             <div className={styles.button}><img src={getImageUrl("buttons/minimizeButton.png")} className={styles.buttonImage}/></div>
@@ -18,7 +31,7 @@ export const ProfileCard = () => {
         </div>
         <div className={styles.searchBar}>
           <div className={styles.searchField}>
-
+            Search bar text
           </div>
         </div>
         <div className={styles.childFrame}>

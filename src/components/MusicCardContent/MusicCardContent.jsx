@@ -11,8 +11,9 @@ export const MusicCardContent = () => {
             </div>
         </div>
         <div className={styles.rightSide}>
-            <h1>title</h1>
-            <h2>Artist</h2>
+            <h1> song title</h1>
+            <h4> Artist </h4>
+            <div> music bar animation? </div>
             <div className={styles.playButton}>
                 <img src={getImageUrl("buttons/playbutton.png")}></img>
             </div>

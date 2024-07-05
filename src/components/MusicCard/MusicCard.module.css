@@ -37,9 +37,16 @@
     width: 100%;
 }
 
+.buttonImage:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
+}
+
+
 .content{
     border-top: 4px solid var(--color-bordergrey);
     background-color: var(--color-musiccontent);
+    /* var(--color-musiccontent) */
     padding: 10px;
 }
 

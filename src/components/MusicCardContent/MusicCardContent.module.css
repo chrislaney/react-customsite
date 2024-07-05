@@ -23,6 +23,15 @@
     flex-direction: column;
 }
 
+.rightSide h1{
+    color: var(--color-bordergrey);
+}
+
+.rightSide h4{
+    color: #7CB0FF;
+}
+
+
 
 .albumCover{
     height: 150px;

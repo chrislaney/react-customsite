@@ -7,6 +7,10 @@ export const MusicCard = () => {
   return (
     <div className={styles.container}>
         <div className={styles.topBar}>
+          <div className={styles.topBarTitle}>
+            <img src={getImageUrl("fileicons/spotifyicon.svg")}></img>
+            <p>Currently Listening</p>
+          </div>
           <div className={styles.button}><img src={getImageUrl("buttons/expandButton.png")} className={styles.buttonImage}/></div>
           <div className={styles.button}><img src={getImageUrl("buttons/minimizeButton.png")} className={styles.buttonImage}/></div>
           <div className={styles.button}><img src={getImageUrl("buttons/xbutton.png")} className={styles.buttonImage}/></div>

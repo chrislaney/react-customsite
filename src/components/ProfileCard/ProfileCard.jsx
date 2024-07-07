@@ -17,18 +17,25 @@ export const ProfileCard = () => {
               <img src={getImageUrl("fileicons/cactusicon.png")}></img>
               <p>MyProfile</p>
             </div>
-            <div className={styles.extTab}>
+            {/* <div className={styles.extTab}>
               <img src={getImageUrl("fileicons/linkedinicon.png")}></img>
               <p>Linkedin</p>
-            </div>
-            <div className={styles.extTab}>
+            </div> */}
+            <a href="https://www.linkedin.com/in/chrislaney1234" target="_blank" className={styles.extTab}>
+              <img src={getImageUrl("fileicons/linkedinicon.png")}></img>
+              <p>Linkedin</p>
+            </a>
+            <a href="https://www.github.com/chrislaney" target="_blank" className={styles.extTab}>
               <img src={getImageUrl("fileicons/githubicon.svg")}></img>
               <p>Github</p>
-            </div>
-            <div className={styles.extTab}>
+            </a>
+            <a href="https://www.strava.com/athletes/41776268" target="_blank" className={styles.extTab}>
               <img src={getImageUrl("fileicons/stravaicon.png")}></img>
               <p>Strava</p>
-            </div>
+            </a>
+
+            
+
 
             
           </div>
@@ -37,8 +44,9 @@ export const ProfileCard = () => {
             <div className={styles.button}><img src={getImageUrl("buttons/xbutton.png")} className={styles.buttonImage}/></div>
         </div>
         <div className={styles.searchBar}>
+          <img src={getImageUrl("fileicons/staricon.png")}></img>
           <div className={styles.searchField}>
-            Search bar text
+              <img src={getImageUrl("fileicons/searchicon.png")}></img>
           </div>
         </div>
         <div className={styles.childFrame}>

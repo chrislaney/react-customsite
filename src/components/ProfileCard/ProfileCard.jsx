@@ -14,13 +14,20 @@ export const ProfileCard = () => {
             
             {/* tabs */}
             <div className={styles.currTab}>
-              Chris' Portfolio
+              <img src={getImageUrl("fileicons/cactusicon.png")}></img>
+              <p>MyProfile</p>
             </div>
             <div className={styles.extTab}>
-              Linkedin Tab
+              <img src={getImageUrl("fileicons/linkedinicon.png")}></img>
+              <p>Linkedin</p>
             </div>
             <div className={styles.extTab}>
-              Github Tab
+              <img src={getImageUrl("fileicons/githubicon.svg")}></img>
+              <p>Github</p>
+            </div>
+            <div className={styles.extTab}>
+              <img src={getImageUrl("fileicons/stravaicon.png")}></img>
+              <p>Strava</p>
             </div>
 
             

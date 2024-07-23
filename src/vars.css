@@ -11,8 +11,8 @@ font-family: 'worksans', sans-serif; */
     /*Colors*/
     --color-text: #585757;
     --color-bg: #FFF9EB;
-    --color-lime: #91FF96;
-    --color-purple: #FC7DFD;
+    --color-lime: #C1FFAB;
+    --color-purple: #ff9dff;
     --color-bordergrey: #585757;
     /*music card*/
     --color-musiccardtopbar: #81b3ff;
@@ -21,12 +21,12 @@ font-family: 'worksans', sans-serif; */
     /*profilecard div*/
     --color-profiletopbar: #C5C7FF;
     --color-searchbarorange: #FFC194;
-    --color-childframebg: #ECFAFF;
+    --color-childframebg: #f2fbff;
     --color-searchfield: #FFEF9D;
 
     /*profile content div*/
     --color-musictopbar: #FFC194;
-    --color-phototopbar: #91FF96;
+    --color-phototopbar: #85FF9C;
     --color-textbox: #FFFFFF;
     --color-abouttopbar: #A9CBFF;
 

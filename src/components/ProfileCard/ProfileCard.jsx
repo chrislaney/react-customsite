@@ -29,10 +29,10 @@ export const ProfileCard = () => {
               <img src={getImageUrl("fileicons/githubicon.svg")}></img>
               <p>Github</p>
             </a>
-            <a href="https://www.strava.com/athletes/41776268" target="_blank" className={styles.extTab}>
+            {/* <a href="https://www.strava.com/athletes/41776268" target="_blank" className={styles.extTab}>
               <img src={getImageUrl("fileicons/stravaicon.png")}></img>
               <p>Strava</p>
-            </a>
+            </a> */}
 
             
 

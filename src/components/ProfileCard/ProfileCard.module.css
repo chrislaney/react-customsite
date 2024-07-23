@@ -5,6 +5,7 @@
     width: fit-content;
     height: fit-content;
     min-width: 450px;
+    max-width: 900px;
 
     
 
@@ -126,6 +127,11 @@
     margin-left: 2px
 }
 
+.extTab:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
+}
+
 
 
 .searchBar{
@@ -209,7 +215,6 @@
 }
 
 @media screen and (max-width: 830px) {
-
     .extTab p{
         display: none;
     }

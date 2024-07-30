@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./ProfileContent.module.css";
 import { FriendButton } from "../FriendButton/FriendButton";
 import { getImageUrl } from '../../utils';
+import { ProfilePic } from './ProfilePic/ProfilePic.jsx';
 
 // https://www.youtube.com/watch?v=2wKS55_rkqI
 
@@ -12,8 +13,8 @@ export const ProfileContent = () => {
         <div className={styles.gridRows}>
             <div className={styles.topBarContainer}>
                 <div>
-                    <div className={styles.profilePic}>
-                        <img src={getImageUrl("photos/chrisHero.JPEG")}></img>
+                    <div>
+                        <ProfilePic></ProfilePic>
                     </div>
                     <div className={styles.nameButtonContainer}>
                         <div className={styles.nameCol}>

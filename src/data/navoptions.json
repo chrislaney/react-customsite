@@ -1,26 +1,32 @@
 [
     {
       "title": "Projects",
-      "imageSrc": "fileicons/foldericon.png"
+      "imageSrc": "fileicons/foldericon.png",
+      "url":""
     },
     {
         "title": "Photos",
-        "imageSrc": "fileicons/foldericon.png"
+        "imageSrc": "fileicons/foldericon.png",
+        "url":""
       },
       {
         "title": "Writings",
-        "imageSrc": "fileicons/foldericon.png"
+        "imageSrc": "fileicons/foldericon.png",
+        "url":""
       },
       {
         "title": "Resume",
-        "imageSrc": "fileicons/texticon.png"
+        "imageSrc": "fileicons/texticon.png",
+        "url":""
       },
       {
         "title": "Interests",
-        "imageSrc": "fileicons/texticon.png"
+        "imageSrc": "fileicons/texticon.png",
+        "url":""
       },
       {
         "title": "Music",
-        "imageSrc": "fileicons/foldericon.png"
+        "imageSrc": "fileicons/foldericon.png",
+        "url":""
       }
   ]

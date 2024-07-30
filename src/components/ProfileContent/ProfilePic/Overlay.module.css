@@ -1,0 +1,76 @@
+@import "../../../vars.css";
+
+.container {
+    position: fixed;
+    top: 40vh;
+    left: 4rem;
+    width: fit-content;
+    height: fit-content;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    border-radius: 5px;
+    box-shadow: -7px 7px 0px 0px var(--color-bordergrey);
+    outline: 4px solid var(--color-bordergrey);
+
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    
+  }
+  
+  .overlayContent {
+    border-top: 4px solid var(--color-bordergrey);
+    background-color: var(--color-purple);
+  }
+  .overlayContent img{
+    height: 20rem;
+    max-height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+
+  .topBar{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-lime);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.button{
+    background-color: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.button:last-child {
+    margin-right: 10px; /* Adds space to the right of the last button */
+}
+.buttonImage{
+    height: 20px;
+    width: 20px;
+}
+
+.buttonImage:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
+    cursor:pointer;
+}
+
+@media screen and (max-width: 830px){
+    .container {
+        top: 30vh;
+        left: 3rem;
+    }
+    .overlayContent img{
+        height: 15rem;
+        width: auto;
+        object-fit: cover;
+      }
+}

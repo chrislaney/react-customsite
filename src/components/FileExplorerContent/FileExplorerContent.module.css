@@ -4,6 +4,8 @@
     height: fit-content;
     width: fit-content;
     max-width: 400px;
+    min-width: 400px;
+    min-height: 275px;
 }
 .content{
     display: flex;

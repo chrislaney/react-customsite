@@ -2,31 +2,49 @@
     {
       "title": "Projects",
       "imageSrc": "fileicons/foldericon.png",
-      "url":""
+      "nextOptions": [
+        {
+          "title": "Project1",
+          "imageSrc": "fileicons/foldericon.png"
+        },
+        {
+          "title": "Project2",
+          "imageSrc": "fileicons/foldericon.png"
+        }
+      ]
     },
     {
         "title": "Photos",
         "imageSrc": "fileicons/foldericon.png",
-        "url":""
+        "nextOptions":""
       },
       {
         "title": "Writings",
         "imageSrc": "fileicons/foldericon.png",
-        "url":""
+        "nextOptions": [
+          {
+            "title": "Essay1",
+            "imageSrc": "fileicons/texticon.png"
+          },
+          {
+            "title": "Essay2",
+            "imageSrc": "fileicons/texticon.png"
+          }
+        ]
       },
       {
         "title": "Resume",
         "imageSrc": "fileicons/texticon.png",
-        "url":""
+        "nextOptions": "src/Laney_Christopher_Resume.pdf"
       },
       {
         "title": "Interests",
         "imageSrc": "fileicons/texticon.png",
-        "url":""
+        "nextOptions":""
       },
       {
-        "title": "Music",
+        "title": "Art",
         "imageSrc": "fileicons/foldericon.png",
-        "url":""
+        "nextOptions":""
       }
   ]

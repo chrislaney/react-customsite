@@ -5,11 +5,23 @@
       "nextOptions": [
         {
           "title": "Project1",
-          "imageSrc": "fileicons/foldericon.png"
+          "imageSrc": "fileicons/foldericon.png",
+          "nextOptions": [
+          {
+            "title": "Essay1",
+            "imageSrc": "fileicons/texticon.png"
+          },
+          {
+            "title": "Essay2",
+            "imageSrc": "fileicons/texticon.png",
+            "nextOptions": "src/Laney_Christopher_Resume.pdf"
+          }
+        ]
         },
         {
           "title": "Project2",
-          "imageSrc": "fileicons/foldericon.png"
+          "imageSrc": "fileicons/foldericon.png",
+          "nextOptions":""
         }
       ]
     },
@@ -28,7 +40,8 @@
           },
           {
             "title": "Essay2",
-            "imageSrc": "fileicons/texticon.png"
+            "imageSrc": "fileicons/texticon.png",
+            "nextOptions": "src/Laney_Christopher_Resume.pdf"
           }
         ]
       },

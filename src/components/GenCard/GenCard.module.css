@@ -60,6 +60,26 @@
     z-index: 1;
 }
 
+.backButton{
+    background-color: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.backButton img{
+    height: 20px;
+    width: 20px;
+}
+
+.backButton img:hover{
+    transition: 0.3s;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
 
 .button:last-child {
     margin-right: 10px; /* Adds space to the right of the last button */

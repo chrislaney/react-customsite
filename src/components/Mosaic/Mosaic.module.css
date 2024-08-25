@@ -1,0 +1,49 @@
+.container{
+    height: 99%;
+    max-height: 90vh;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+
+.mosaicGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    height: auto;
+    max-width: 100%; /* Ensures the grid does not overflow the container */
+    box-sizing: border-box; /* Includes padding in the width calculation */
+    overflow: hidden; /* Prevents content from overflowing the container */
+  }
+  
+  .mosaicItem {
+    overflow: hidden;
+    position: relative; /* Allows absolute positioning within the item */
+    overflow: hidden; /* Prevents overflow of images */
+    display: flex; /* Flexbox to center content */
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .mosaicItem img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .mosaicItem:hover img {
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .mosaicGrid{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller columns for smaller screens */
+        padding: 10px; /* Less padding on smaller screens */
+        margin-bottom: 5px;
+    }
+    .container{
+
+        max-height: 95vh;
+        width: 99%;
+    }
+}

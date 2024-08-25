@@ -13,7 +13,7 @@ export const FileExplorerContent = ({ navOptionsJson, onNavOptionClick }) => {
                 return (
                 <div key={id} className={styles.navOptionItem} onClick={() => {
                   console.log('Item clicked'); // Check if this logs
-                  onNavOptionClick(navoption.nextOptions);
+                  onNavOptionClick(navoption.nextOptions, navoption);
                 }}>
                     <div className={styles.navImageContainer}>
                     <img src={getImageUrl(navoption.imageSrc)} alt={navoption.title}  />

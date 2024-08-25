@@ -28,7 +28,20 @@
     {
         "title": "Photos",
         "imageSrc": "fileicons/foldericon.png",
-        "nextOptions":""
+        "shouldTriggerOverlay": true,  
+        "overlayContent": [
+          "../assets/photos/photo1.jpg",
+          "../assets/photos/photo2.jpg",
+          "../assets/photos/photo3.jpg",
+          "../assets/photos/photo4.jpg",
+          "../assets/photos/photo5.jpg",
+          "../assets/photos/photo6.jpg",
+          "../assets/photos/photo7.jpg",
+          "../assets/photos/photo8.jpg",
+          "../assets/photos/photo9.jpg",
+          "../assets/photos/photo10.jpg",
+          "../assets/photos/photo11.jpg"
+        ]
       },
       {
         "title": "Writings",
@@ -58,6 +71,36 @@
       {
         "title": "Art",
         "imageSrc": "fileicons/foldericon.png",
-        "nextOptions":""
+        "shouldTriggerOverlay": true,  
+        "overlayContent": [
+          "https://via.placeholder.com/150/0000FF",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/0000FF",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/0000FF",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/0000FF",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00",
+          "https://via.placeholder.com/150/FF0000",
+          "https://via.placeholder.com/150/00FF00"
+        ]
       }
   ]

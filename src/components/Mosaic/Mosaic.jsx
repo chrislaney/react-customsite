@@ -10,7 +10,7 @@ export const Mosaic = ({photos}) => {
       <div className={styles.mosaicGrid}>
         {photos.map((src, index) => (
             <div className={styles.mosaicItem} key={index}>
-              <img src={src} alt={`Mosaic item ${index + 1}`} />
+              <img src={getImageUrl(src)} alt={`Mosaic item ${index + 1}`} />
             </div>
           ))}
       </div>

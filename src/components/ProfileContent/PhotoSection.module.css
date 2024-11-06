@@ -1,0 +1,25 @@
+.square{
+    width: 125px;
+    height:125px;
+    background-color: grey;
+    margin: 4px;
+    
+    
+}
+
+.contentTextBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-evenly;
+
+    /* Need to add text styling in */
+
+}
+
+.photocovers{
+    height: 100%;
+    width: 100%;
+}

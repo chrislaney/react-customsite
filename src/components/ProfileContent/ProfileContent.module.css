@@ -204,6 +204,14 @@
     
 }
 
+.albumcovers{
+    height: 100%;
+    width: 100%;
+}
+.albumcovers:hover{
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 830px) {

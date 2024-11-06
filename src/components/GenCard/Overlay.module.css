@@ -33,7 +33,7 @@
     justify-content: flex-end; /* Align items to the right */
     align-items: center; /* Vertically center items */
     background-color: var(--color-musiccardtopbar);
-    padding: 0 10px; /* Adds padding to avoid edge touching */
+    padding: 0 5px; /* Adds padding to avoid edge touching */
     width: 100%; /* Ensures topBar fills the full width of its grid cell */
     box-sizing: border-box; /* Ensures padding is included in width calculation */
     grid-row: 1; /* Places topBar in the first grid row */
@@ -41,18 +41,19 @@
 }
 
 
-.button{
-    background-color: none;
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-}
 .button:last-child {
     margin-right: 10px; /* Adds space to the right of the last button */
 }
 .buttonImage{
     height: 20px;
     width: 20px;
+}
+
+.button{
+  background-color: none;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 
 .buttonImage:hover{
